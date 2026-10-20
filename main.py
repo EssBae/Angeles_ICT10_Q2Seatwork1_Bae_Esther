@@ -1,6 +1,6 @@
 from pyscript import document, display
 
-teachers_name = [ "Danica Perez", "Winmhar Salazar", "Bianca Franco", "Rogelio Alegrid", "Angelina Cristobal", "Louise Garcia", "Ailene Galang", "Heidi Mamangon", "Ian Lumboy", "Ruel Roquel", "Sean Mercado", "Amelia Aguirre", "Mark Layug", "Roselle Sarmiento", "Luisito Balajadia", "Randy Santos" ] # List of confirmed names
+teachers_name = [ "Danica Perez", "Winmhar Salazar", "Bianca Franco", "Rogelio Alegrid", "Angelina Cristobal", "Louise Garcia", "Ailene Galang", "Heidi Mamangon", "Ian Lumboy", "Ruel Roque", "Sean Mercado", "Amelia Aguirre", "Mark Layug", "Roselle Sarmiento", "Luisito Balajadia", "Randy Santos" ] # List of confirmed names
 
 def verify(event):
     first = document.getElementById("first_name").value.strip().title() # Gets the first name entered
